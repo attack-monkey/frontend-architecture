@@ -49,15 +49,15 @@ My preferred stack in 2020 takes into account the following principles;
 
 ## Stack of Choice
   
-- Language: **Typescript** - A superset of javascript that adds type-safety to the language
-- Framework: **Next.js** - React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
-- State Management: **HypeReduce \*** or Redux - State management with emphasis on clean, pure code
-- Paradigm: **Flat Code Guide** - Principles, rules, and minimal libraries for writing clean, pure, untangled code \*
-- Testing: **Jest** or Mocha - Unit Tests
-- Editor: **VS Code** - Works amazingly with Typescript, including live collaboration, code completion, linting, formating, etc.
-- Linting: **ES Lint**, Typescript Rule Configuration
-- CMS: **Butter CMS** or another Headless CMS that works well with Next.js
-- UI Framework: **Bootstrap** **TODO: Review this**
+- Language: **[Typescript](https://www.typescriptlang.org/)** - A superset of javascript that adds type-safety to the language
+- Framework: **[Next.js](https://nextjs.org/)** - React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
+- State Management: **[HypeReduce](https://www.npmjs.com/package/hypereduce) \*** or Redux - State management with emphasis on clean, pure code
+- Paradigm: **[Flat Code Guide](https://github.com/attack-monkey/flat-code-guide)** - Principles, rules, and minimal libraries for writing clean, pure, untangled code \*
+- Testing: **[Jest](https://jestjs.io/)** or Mocha - Unit Tests
+- Editor: **[VS Code](https://code.visualstudio.com/)** - Works amazingly with Typescript, including live collaboration, code completion, linting, formating, etc.
+- Linting: **[ES Lint](https://eslint.org/)**, Typescript Rule Configuration
+- CMS: **[Butter CMS](https://buttercms.com/)** or another Headless CMS that works well with Next.js
+- UI Framework: **[Bootstrap](https://getbootstrap.com/)** **TODO: Review this**
 
 \* HypeReduce and  \* Flat are tools created by me.
 
@@ -69,6 +69,6 @@ My preferred stack in 2020 takes into account the following principles;
 
 Just as important as the tech-stack are the paradigms and architecture underpinning the software. Using the Flat Code guide as a starting point means that code is written in a clean, untangled way, with an emphasis on functional principles (without some of the more complex functional overhead). Using this as a starting point means that code will be less error-prone, and easier to refactor when change is required. Tying this in with React Functional Components and HypeReduce State Management provides the basis for an extremely clean application.
 
-Using React with HypeReduce uses a clean one-way data flow using Update Model View architecture pattern. The underpinning State ( Model ) is updated, which then rerenders the view where necesarry. It's pretty much that simple.
+Using React with HypeReduce uses a clean one-way data flow using [Model View Update](https://thomasbandt.com/model-view-update) architecture pattern. The underpinning State ( Model ) is updated, which then rerenders the view where necesarry. It's pretty much that simple.
 
 Sitting above this is how to utilise something like Next.js **correctly** from the start to enable Multi-tenanted / Lightweight code. In a proof of concept, I have used environment variables in a simple file that would ship with the environment to enable different builds for different clients. This system runs at compile time and doesn't add to runtime overhead. Unlike config in legacy apps, these Environment Variables are very few, and connect to richer type-safe config within the app (still not adding to runtime overhead).
