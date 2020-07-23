@@ -35,10 +35,8 @@ To undertake a Greenfields project, there are many factors to consider...
   
 ## Stack
   
+- Typescript - A superset of javascript that adds type-safety to the language
+- Next.js - React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
+- HypeReduce \* 
 
-Language | App Framework
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-| React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
+React utilises many concepts from functional languages 
