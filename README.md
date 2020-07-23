@@ -35,7 +35,6 @@ To undertake a Greenfields project, there are many factors to consider...
   
   ## Stack
   
-  - Typescript
-  - Next.js ( React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
-    
-  >  Many
+
+| **Language** | Typescript | |
+| **App Framework** | Next.js | React based framework with emphasis on speed to write, build, deploy, load, use, etc. ) |
