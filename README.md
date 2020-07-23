@@ -33,10 +33,10 @@ To undertake a Greenfields project, there are many factors to consider...
   - Responsive
   - Progressive Web App (Blurring the line between site and mobile app)
   
-  ## Stack
+## Stack
   
 
-First Header | Second Header
+Language | App Framework
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
