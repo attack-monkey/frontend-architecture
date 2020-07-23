@@ -36,11 +36,9 @@ To undertake a Greenfields project, there are many factors to consider...
   ## Stack
   
 
-Language   | App Framework
-------------------------
-Typescript | Next.js
-
-| Typescript
- | Next.js
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 | React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
