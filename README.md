@@ -8,7 +8,7 @@ To undertake a Greenfields project, there are many factors to consider.
 
 Not too long ago the dominant way was to use a server-side language to generate the frontend. Javascript were badly written add-ons at the bottom of a JSP (Java) / ASP / PHP / etc. Jquery was the dominant Javascript variant because it short-handed many of Javascript's DOM related functions. Javascript and Jquery were often written in a very imperative way, because it's prototype based object system was very different than the class based system that Java and C# were written in. Also Javascript and JQuery tended to be blobs tacked on to the bottom of a html doc, targeting DOM elements above and instructing them what to do.
 
-** Fast-forward to 2020**
+**Fast-forward to 2020**
 
 Javascript is modular and can run both client and server-side. Type-safety is easy with Typescript; a Javascript Superset. There are a large amount of Javascript frameworks to build the front-end, without any help from the server. The rise of the JAM (Javascript / API / Markup) Stack makes the front-end extremely fast to develop, build, deploy, load, etc. Javascript is now rarely written in the poor imperative manner of error-prone days past. The language itself now has classes, making it easier to be written in an Object Oriented way. The likes of Angular framework embrace this. The rise of React + Redux has also shown how functional javascript can be used to write much cleaner, less error prone code that it's object-oriented counter-parts.
 
