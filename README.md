@@ -49,12 +49,11 @@ My preferred stack in 2020 takes into account the following principles;
 
 ## Stack of Choice
   
-- Typescript - A superset of javascript that adds type-safety to the language
-- Next.js - React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
-- HypeReduce \* or Redux - State management with emphasis on clean, pure code
-- Flat Code Guide - Principles, rules, and minimal libraries for writing clean, pure, untangled code \*
-- Jest or Mocha - Unit Tests
-- VS Code - Works amazingly with Typescript, including live collaboration, code completion, linting, formating, etc.
-- Linting - ES Lint, Typescript Rule Configuration
-
-- Headless CMS??
+- Language: **Typescript** - A superset of javascript that adds type-safety to the language
+- Framework: **Next.js** - React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
+- State Management: **HypeReduce \*** or Redux - State management with emphasis on clean, pure code
+- Paradigm: **Flat Code Guide** - Principles, rules, and minimal libraries for writing clean, pure, untangled code \*
+- Testing: **Jest** or Mocha - Unit Tests
+- Editor: **VS Code** - Works amazingly with Typescript, including live collaboration, code completion, linting, formating, etc.
+- Linting: **ES Lint**, Typescript Rule Configuration
+- CMS: **Butter CMS** or another Headless CMS that works well with Next.js
