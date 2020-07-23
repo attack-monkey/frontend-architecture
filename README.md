@@ -59,8 +59,16 @@ My preferred stack in 2020 takes into account the following principles;
 - CMS: **Butter CMS** or another Headless CMS that works well with Next.js
 - UI Framework: **Bootstrap** **TODO: Review this**
 
+\* HypeReduce and  \* Flat are tools created by me.
+
+**HypeReduce** is a much leaner, event driven varient of Redux - removing a huge amount of boilerplate, and emphasising code re-use.
+
+**Flat** is a guide plus a small set of libraries for writing flat, clean, pure, untangled javascript and typescript.
+
 ## Software Archtecture
 
 Just as important as the tech-stack are the paradigms and architecture underpinning the software. Using the Flat Code guide as a starting point means that code is written in a clean, untangled way, with an emphasis on functional principles (without some of the more complex functional overhead). Using this as a starting point means that code will be less error-prone, and easier to refactor when change is required. Tying this in with React Functional Components and HypeReduce State Management provides the basis for an extremely clean application.
+
+Using React with HypeReduce uses a clean one-way data flow using Update Model View architecture pattern. The underpinning State ( Model ) is updated, which then rerenders the view where necesarry. It's pretty much that simple.
 
 Sitting above this is how to utilise something like Next.js **correctly** from the start to enable Multi-tenanted / Lightweight code. In a proof of concept, I have used environment variables in a simple file that would ship with the environment to enable different builds for different clients. This system runs at compile time and doesn't add to runtime overhead. Unlike config in legacy apps, these Environment Variables are very few, and connect to richer type-safe config within the app (still not adding to runtime overhead).
