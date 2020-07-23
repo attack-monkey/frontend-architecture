@@ -1,10 +1,24 @@
 # frontend-architecture-2020
-A Review of Frontend Applications in 2020
+Building Frontend Applications in 2020
 
 ## Introduction
 
 In 2020 there are a vast number of ways to build applications.
-To undertake a Greenfields project, there are many factors to consider...
+To undertake a Greenfields project, there are many factors to consider.
+
+Not too long ago the dominant way was to use a server-side language to generate the frontend. Javascript were badly written add-ons at the bottom of a JSP (Java) / ASP / PHP / etc. Jquery was the dominant Javascript variant because it short-handed many of Javascript's DOM related functions. Javascript and Jquery were often written in a very imperative way, because it's prototype based object system was very different than the class based system that Java and C# were written in. Also Javascript and JQuery tended to be blobs tacked on to the bottom of a html doc, targeting DOM elements above and instructing them what to do.
+
+** Fast-forward to 2020**
+
+Javascript is modular and can run both client and server-side. Type-safety is easy with Typescript; a Javascript Superset. There are a large amount of Javascript frameworks to build the front-end, without any help from the server. The rise of the JAM (Javascript / API / Markup) Stack makes the front-end extremely fast to develop, build, deploy, load, etc. Javascript is now rarely written in the poor imperative manner of error-prone days past. The language itself now has classes, making it easier to be written in an Object Oriented way. The likes of Angular framework embrace this. The rise of React + Redux has also shown how functional javascript can be used to write much cleaner, less error prone code that it's object-oriented counter-parts.
+
+Modern languages are all now embracing more functional paradigms, including JVM based Scala and Kotlin, as well as .Net based F#, and low level languages like Rust and Go. Whle functional languages are able to generate cleaner, less error-prone code, there is a massive object-oriented community out there - stuck in their ways - so many languages are hybrids between functional and object oriented.
+
+To complicate things further; most languages can now be transpiled to Javascript, making anything potentially a candidate for writing both back and front-end code.
+
+With all the transpiling that is possible; these transpiled languages often lack the rich dynanism of Javascript and in particular it's ability to lazy-load more code at the right time - reducing initial load time and proving a faster Frontend experience.
+
+My preferred stack in 2020 takes into account the following principles;
 
 ## Principles
 
@@ -33,7 +47,7 @@ To undertake a Greenfields project, there are many factors to consider...
   - Responsive
   - Progressive Web App (Blurring the line between site and mobile app)
 
-## Stack
+## Stack of Choice
   
 - Typescript - A superset of javascript that adds type-safety to the language
 - Next.js - React based framework with emphasis on speed to write, build, deploy, load, use, etc. )
