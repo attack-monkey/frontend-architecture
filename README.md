@@ -61,9 +61,12 @@ My preferred stack in 2020 takes into account the following principles;
 
 \* HypeReduce and  \* Flat are tools created by me.
 
-**HypeReduce** is a much leaner, event driven varient of Redux - removing a huge amount of boilerplate, and emphasising code re-use.
+**HypeReduce** is a much leaner, event driven varient of Redux - removing a huge amount of boilerplate, and emphasising code re-use. This is a small library that I have written but can easily be maintained in house at ADVAM.
 
-**Flat** is a guide plus a small set of libraries for writing flat, clean, pure, untangled javascript and typescript.
+**Flat** is a guide and small set of libraries that I have written for writing flat, clean, pure, untangled javascript and typescript. Flat is based on functional programming principles but it stays pragmatic and targeted to the uniquness or Javascript / Typescript.
+
+https://medium.com/better-programming/object-oriented-programming-the-trillion-dollar-disaster-92a4b666c7c7
+https://thenewstack.io/why-are-so-many-developers-hating-on-object-oriented-programming/#:~:text=Nondeterminism%20inherent%20in%20OOP%20programs,created%20on%2Dthe%2Dfly.
 
 ## Software Archtecture
 
