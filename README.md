@@ -12,7 +12,7 @@ Not too long ago the dominant way was to use a server-side language to generate 
 
 Javascript is modular and can run both client and server-side. Type-safety is easy with Typescript; a Javascript Superset. There are a large amount of Javascript frameworks to build the front-end, without any help from the server. The rise of the JAM (Javascript / API / Markup) Stack makes the front-end extremely fast to develop, build, deploy, load, etc. Javascript is now rarely written in the poor imperative manner of error-prone days past. The language itself now has classes, making it easier to be written in an Object Oriented way. The likes of Angular framework embrace this. The rise of React + Redux has also shown how functional javascript can be used to write much cleaner, less error prone code than that of it's object-oriented counter-parts. Since the rise of frameworks like Vue and React, the enjoyment and adoption of Angular has greatly reduced.
 
-Modern languages are all now embracing more functional paradigms, including JVM based Scala and Kotlin, as well as .Net based F#, and low level languages like Rust and Go. Whle functional languages are able to generate cleaner, less error-prone code, there is a massive object-oriented community out there - stuck in their ways - so many languages are hybrids between functional and object oriented.
+Modern languages are all now embracing more functional paradigms, including JVM based Scala and Kotlin, as well as .Net based F#, and low level languages like Rust and Go. Whle functional languages are able to generate cleaner, less error-prone code, there is a massive object-oriented community out there - so many languages are hybrids between functional and object oriented.
 
 To complicate things further; most languages can now be transpiled to Javascript, making anything potentially a candidate for writing both back and front-end code.
 
@@ -61,11 +61,9 @@ My preferred stack in 2020 takes into account the following principles;
 
 **Tools written by me - that are open for anyone**
 
-\* HypeReduce and  \* Flat are libraries created by me. They can easily be forked and maintained in house or swapped out for more battle-tested third-party libraries as well.
+\* **HypeReduce** is a library created by me. It can easily be forked and maintained in house or swapped out for more battle-tested third-party libraries as well. It is a much leaner, event driven variant of Redux - removing a huge amount of boilerplate, and emphasising code re-use.  
 
-**HypeReduce** is a much leaner, event driven variant of Redux - removing a huge amount of boilerplate, and emphasising code re-use. 
-
-**Flat** is a guide and small set of libraries that I have written for writing flat, clean, pure, untangled javascript and typescript. Flat is based on functional programming principles but it stays pragmatic and targeted to the uniquness or Javascript / Typescript.
+**Flat** is a guide and small set of libraries that I have written for writing flat, clean, pure, untangled javascript and typescript. Flat is essentially a guide to functional programming principles but it stays pragmatic and targeted to the uniquness or Javascript / Typescript.
 
 For more information on Functional Programming in Javascript / Typescript - the following is a good source.
 https://github.com/getify/Functional-Light-JS
@@ -78,6 +76,6 @@ Some articles on staying away from Object Oriented Programming
 
 Just as important as the tech-stack are the paradigms and architecture underpinning the software. Using the Flat Code guide as a starting point means that code is written in a clean, untangled way, with an emphasis on functional principles (without some of the more complex functional overhead). Using this as a starting point means that code will be less error-prone, and easier to refactor when change is required. Tying this in with React Functional Components and HypeReduce State Management provides the basis for an extremely clean application.
 
-Using React with HypeReduce uses a clean one-way data flow using [Model View Update](https://thomasbandt.com/model-view-update) architecture pattern. The underpinning State ( Model ) is updated, which then rerenders the view where necesarry. It's pretty much that simple.
+Using React with HypeReduce uses a clean one-way data flow using [Model View Update](https://thomasbandt.com/model-view-update) architecture pattern. The underpinning State ( Model ) is updated, which then rerenders the view where necesarry.
 
 Sitting above this is how to utilise something like Next.js **correctly** from the start to enable Multi-tenanted / Lightweight code. In a proof of concept, I have used environment variables in a simple file that would ship with the environment to enable different builds for different clients. This system runs at compile time and doesn't add to runtime overhead. Unlike config in legacy apps, these Environment Variables are very few, and connect to richer type-safe config within the app (still not adding to runtime overhead).
