@@ -59,11 +59,16 @@ My preferred stack in 2020 takes into account the following principles;
 - CMS: **[Butter CMS](https://buttercms.com/)** or another Headless CMS that works well with Next.js
 - UI Framework: **[Bootstrap](https://getbootstrap.com/)** **TODO: Review this**
 
-\* HypeReduce and  \* Flat are tools created by me.
+**Tools written by me - that are open for anyone**
 
-**HypeReduce** is a much leaner, event driven varient of Redux - removing a huge amount of boilerplate, and emphasising code re-use. This is a small library that I have written but can easily be maintained in house at ADVAM.
+\* HypeReduce and  \* Flat are libraries created by me. They can easily be forked and maintained in house or swapped out for more battle-tested third-party libraries as well.
+
+**HypeReduce** is a much leaner, event driven variant of Redux - removing a huge amount of boilerplate, and emphasising code re-use. 
 
 **Flat** is a guide and small set of libraries that I have written for writing flat, clean, pure, untangled javascript and typescript. Flat is based on functional programming principles but it stays pragmatic and targeted to the uniquness or Javascript / Typescript.
+
+For more information on Functional Programming in Javascript / Typescript - the following is a good source.
+https://github.com/getify/Functional-Light-JS
 
 Some articles on staying away from Object Oriented Programming
 - https://medium.com/better-programming/object-oriented-programming-the-trillion-dollar-disaster-92a4b666c7c7
